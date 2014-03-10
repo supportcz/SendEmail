@@ -1,0 +1,21 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Program: MotionErrorLogger
+ * File: MotionErrorLogger.var
+ * Author: vancurar
+ * Created: November 28, 2013
+ ********************************************************************
+ * Local variables of program MotionErrorLogger
+ ********************************************************************)
+VAR
+	step : INT;
+	MC_BR_AxisErrorCollector_0 : MC_BR_AxisErrorCollector;
+	TON_0 : TON;
+	SmtpSend_0 : SmtpSend;
+	params : SendEmailParameters_typ;
+	CfgGetHostName_0 : CfgGetHostName;
+	CfgGetIPAddr_0 : CfgGetIPAddr;
+	hostName : STRING[80];
+	ip_address : STRING[80];
+END_VAR
