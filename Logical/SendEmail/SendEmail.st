@@ -15,7 +15,7 @@ PROGRAM _INIT
 	params.sender := 'error@czechmachines.cz';
 	params.receiver := 'icm@czechmachines.cz';
 	params.user := 'icm@czechmachines.cz';
-	params.password := 'Karroh13';
+	params.password := 'heslo3';
 	params.text := '';
 	params.ethernetPort := 'IF5';
 	
